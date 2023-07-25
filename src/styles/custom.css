@@ -1,0 +1,166 @@
+/* HEIGHTS */
+.h-60 {
+  height: 60px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.h-1000 {
+  height: 1000px;
+}
+
+/* WIDTHS */
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-500 {
+  width: 500px;
+}
+
+.w-600 {
+  width: 600px;
+}
+
+/* BACKGROUND COLORS */
+.bg-main {
+  background-color: #252a34;
+}
+
+/* FONT */
+.font-bold {
+  font-weight: bold;
+}
+
+/* TEXT COLOUR */
+.text-grey-100 {
+  color: #f8f8f8;
+}
+
+.text-grey-200 {
+  color: #e8e8e8;
+}
+
+.text-grey-300 {
+  color: #d8d8d8;
+}
+
+.text-grey-400 {
+  color: #c8c8c8;
+}
+
+.text-grey-500 {
+  color: #b8b8b8;
+}
+
+.text-grey-600 {
+  color: #a8a8a8;
+}
+
+.text-grey-700 {
+  color: #989898;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+/* TEXT SIZE */
+.text-10 {
+  font-size: 10px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-22 {
+  font-size: 22px;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
+.text-26 {
+  font-size: 26px;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+
+.text-30 {
+  font-size: 30px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-34 {
+  font-size: 34px;
+}
+
+.text-36 {
+  font-size: 36px;
+}
+
+.text-38 {
+  font-size: 38px;
+}
+
+.text-40 {
+  font-size: 40px;
+}
+
+/* LINKS */
+.no-underline {
+  text-decoration: none;
+}
