@@ -7,10 +7,22 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link> |<Link to="/projects">Projects</Link> |
-        <Link to="/experience">Experience</Link> |
-        <Link to="/contact">Contact</Link>
+      <nav className="bg-main h-60">
+        <Link to="/" className="text-white text">
+          Home
+        </Link>{" "}
+        |
+        <Link to="/projects" className="text-white">
+          Projects
+        </Link>{" "}
+        |
+        <Link to="/experience" className="text-white">
+          Experience
+        </Link>{" "}
+        |
+        <Link to="/contact" className="text-white">
+          Contact
+        </Link>
       </nav>
 
       <Routes>
