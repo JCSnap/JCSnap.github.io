@@ -9,13 +9,13 @@ const Home = () => {
     <div className="overflow-y-scroll hero-unit h-1000 bg-main">
       <Introduction />
       <div id="contentContainer" className="d-flex flex-row mt-2">
-        <div className="col-3">
+        <div className="col-lg-3 col-md-3 d-none d-md-block">
           <Sidebar className="d-flex col-3" />
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-9 col-sm-12">
           <HomePageContent />
         </div>
-        <div className="col-3">
+        <div className="col-lg-3 d-lg-block d-none">
           <HomePageTableOfContents />
         </div>
       </div>
