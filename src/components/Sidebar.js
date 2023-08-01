@@ -25,7 +25,7 @@ const Sidebar = () => {
         return (
           <div id="socialContainer">
             <ul>
-              <li className="d-flex justify-content-center">
+              <li className="d-flex ps-lg-5">
                 <a href={social.url} className="no-underline">
                   <i className={`fab ${social.icon}`}></i>
                   <span className="text-grey-300 px-2">{social.name}</span>

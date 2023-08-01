@@ -1,6 +1,7 @@
 import React from "react";
 
 function ExperiencePageContent() {
+  const currentResumePath = "JustinCheahYunFei_resume_July2023_v1.pdf";
   const experienceData = {
     work: [
       {
@@ -82,14 +83,44 @@ function ExperiencePageContent() {
     );
   }
 
+  function ContactInfo() {
+    return (
+      <div id="contactInfo">
+        <hr />
+        <p>
+          Email:{" "}
+          <a href="mailto:justinwoody1234@gmail.com" className=" text-white">
+            justinwoody1234@gmail.com
+          </a>
+        </p>
+        <p>
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/justin-cheah-yun-fei/"
+            className="text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Justin Cheah
+          </a>
+        </p>
+        <a href={currentResumePath} download className="btn btn-primary">
+          Download Resume
+        </a>
+      </div>
+    );
+  }
+
   // Use these components in your page like this:
 
   return (
-    <div className="text-white">
-      <h1>Work Experience</h1>
+    <div className="text-white px-3">
+      <h1 className="font-bold">Contact Me</h1>
+      <ContactInfo />
+      <h1 className="pt-3 font-bold">Work Experience</h1>
       <ExperienceList experiences={experienceData.work} />
 
-      <h1>School Experience</h1>
+      <h1 className="pt-3 font-bold">School Experience</h1>
       <ExperienceList experiences={experienceData.school} />
     </div>
   );
