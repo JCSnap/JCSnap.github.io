@@ -10,7 +10,7 @@ const Home = () => {
       <Introduction />
       <div id="contentContainer" className="d-flex flex-row mt-2">
         <div className="col-lg-3 col-md-3 d-none d-md-block">
-          <Sidebar className="d-flex col-3" />
+          <Sidebar />
         </div>
         <div className="col-lg-6 col-md-9 col-sm-12">
           <HomePageContent />
