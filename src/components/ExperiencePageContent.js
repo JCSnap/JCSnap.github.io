@@ -111,6 +111,40 @@ function ExperiencePageContent() {
     );
   }
 
+  function Education() {
+    return (
+      <div id="education">
+        <hr />
+        <div id="nus">
+          <div
+            id="educationInfo"
+            className="flex-row d-flex justify-content-between"
+          >
+            <p className="font-bold">National University of Singapore</p>
+            <p className="fst-italic">2022 - 2026</p>
+          </div>
+          <div>
+            Double Degree in Computer Science and Business Administration
+          </div>
+        </div>
+        <div id="hwach">
+          <div
+            id="educationInfo"
+            className="flex-row d-flex justify-content-between"
+          >
+            <p className="font-bold">Hwa Chong Institution</p>
+            <p className="fst-italic">2016 - 2019</p>
+          </div>
+          <div>
+            Singapore Cambridge GCE A-Level: AAAA/A in H2 Mathematics, H2
+            Physics, H2 Knowledge & Inquiry, H2 Economics, H1 Project Work
+            90/90RP
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   // Use these components in your page like this:
 
   return (
@@ -119,9 +153,10 @@ function ExperiencePageContent() {
       <ContactInfo />
       <h1 className="pt-3 font-bold">Work Experience</h1>
       <ExperienceList experiences={experienceData.work} />
-
       <h1 className="pt-3 font-bold">School Experience</h1>
       <ExperienceList experiences={experienceData.school} />
+      <h1 className="pt-3 font-bold">Education</h1>
+      <Education />
     </div>
   );
 }
