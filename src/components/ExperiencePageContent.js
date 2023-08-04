@@ -5,24 +5,29 @@ function ExperiencePageContent() {
   const experienceData = {
     work: [
       {
-        companyName: "COMPANY A",
-        role: "Software Developer Intern",
-        period: "Jun 2022 - Aug 2022",
-        location: "City, Country",
+        companyName: "Codomo Pte Ltd",
+        role: "AI and Software Engineer Intern",
+        period: "May 2023 - August 2023",
+        location: "Singapore",
         contributions: [
-          "Developed a key feature in the product",
-          "Refactored codebase to improve readability and maintainability",
+          "Integrated OpenAI's API into the backend in Ruby on Rails with Langchain and speahheaded the implementation of Rolljak's AI Question Generator feature from scratch for 7 activity types and 4 upload types which have been pushed to production",
+          "Implemented frontend features and UI/UX improvements with javascript, jQuery and Bootstrap",
+          "Introduced ways to sanitise user inputs, prevent prompt injection attacks, and improved processing time by 30% by implementing concurrent programming",
+          "Improved the accuracy of the results by more than 50% with prompt engineering, and integrating usage of external tools like a calculator and Wikipedia into GPT",
+          "Fixed frontend and backend bugs ranging from P1 (severe) to P3 (minor)",
+          "Automated workflow such as benchmarking of question generation results by different prompts, and comparison with competitors' results using Python and Selenium",
+          "Collaborated with team members in an AGILE environment with SCRUM framework. Exposed to procedures such as reviewing pull requests, sprint planning and review, leading deployment meetings etc",
           // more contributions...
         ],
       },
       {
-        companyName: "COMPANY B",
-        role: "Software Developer Intern",
-        period: "Jun 2021 - Aug 2021",
-        location: "City, Country",
+        companyName: "Raffles Hall",
+        role: "Student Frontend Developer",
+        period: "August 2022 - March 2023",
+        location: "Singapore",
         contributions: [
-          "Developed a key feature in the product",
-          "Refactored codebase to improve readability and maintainability",
+          "Collaborated with other frontend developers to maintain Raffles Hall's web application serving more than 700 people by primarily ficing bugs",
+          "Implemented frontend components for the Raffles SuperApp in Reactjs, Nextjs, javascript and CSS",
           // more contributions...
         ],
       },
