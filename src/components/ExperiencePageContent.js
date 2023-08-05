@@ -31,6 +31,16 @@ function ExperiencePageContent() {
           // more contributions...
         ],
       },
+      {
+        companyName: "Freelance",
+        role: "Private Tutor",
+        period: "January 2021 - Present",
+        location: "Singapore",
+        contributions: [
+          "Tutored students in in GCE A-Level H2 Mathematics, H2 Physics, H2 Economics, H2 Knowledge & Inquiry and brought about significant improvements in their grades",
+          // more contributions...
+        ],
+      },
       // more work experiences...
     ],
     school: [
@@ -40,8 +50,8 @@ function ExperiencePageContent() {
         period: "Sep 2021 - May 2022",
         location: "City, Country",
         contributions: [
-          "Organized weekly coding competitions",
-          "Conducted coding bootcamps for beginners",
+          "Test",
+          "Test",
           // more contributions...
         ],
       },
