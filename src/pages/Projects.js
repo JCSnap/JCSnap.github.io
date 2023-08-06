@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 
 const Projects = () => {
   return (
-    <div className="overflow-y-scroll hero-unit h-1000 bg-main">
+    <div className="overflow-y-scroll hero-unit h-1500 bg-main">
       <div id="contentContainer" className="d-flex flex-row mt-2">
         <div className="col-lg-3 col-md-3 d-none d-md-block">
           <Sidebar />
