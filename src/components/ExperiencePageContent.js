@@ -17,6 +17,7 @@ function ExperiencePageContent() {
           "Fixed frontend and backend bugs ranging from P1 (severe) to P3 (minor)",
           "Automated workflow such as benchmarking of question generation results by different prompts, and comparison with competitors' results using Python and Selenium",
           "Collaborated with team members in an AGILE environment with SCRUM framework. Exposed to procedures such as reviewing pull requests, sprint planning and review, leading deployment meetings etc",
+          "Learn more about the AI feature at https://www.rolljak.com/ai",
           // more contributions...
         ],
       },
@@ -91,11 +92,29 @@ function ExperiencePageContent() {
         </div>
         <ul>
           {contributions.map((contribution, i) => (
-            <li key={i}>{contribution}</li>
+            <li key={i}>{renderContribution(contribution)}</li>
           ))}
         </ul>
       </div>
     );
+  }
+
+  function renderContribution(contribution) {
+    const urlPattern = /(https?:\/\/[^\s]+)/i; // This pattern will search for http:// or https:// followed by any non-space characters.
+    const match = contribution.match(urlPattern);
+
+    if (match) {
+      const url = match[0]; // This will contain the extracted URL
+      return (
+        <>
+          {contribution.replace(url, "")}
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {url}
+          </a>
+        </>
+      );
+    }
+    return contribution;
   }
 
   function ContactInfo() {
