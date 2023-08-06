@@ -19,9 +19,65 @@ function ProjectPageContent() {
       ],
     },
     {
-      projectName: "Cover",
+      projectName: "Stock Trading Bot",
+      type: "Machine Learning Project",
+      descriptions: [
+        "Created a stock trading programme in Python for the Huawei Innovation Challenge 2022 using machine learning to process 80GB of past stock data to make predictions to trade stocks",
+        "Leverages on libraries such as sklearn for it's decision tree regressor, pandas for data processing, numpy for matrix operations",
+        "Created shell scripts to automate the process of validating the model and comparing the profit of different strategies with the base model",
+        "More information can be found at: https://justin-cheah-portfolio.notion.site/Trading-Model-8b92af1ce98044c9a7bf80fa4bad9816?pvs=4",
+        "Github repository: https://github.com/JCSnap/Huawei-trading-model",
+      ],
+    },
+    {
+      projectName: "AI Cover Letter Bot",
+      type: "Telegram bot",
+      descriptions: [
+        "Created a Telegram bot in Python that allows users to generate personalized cover letters for job applications by just typing in the company name",
+        "Leverages on libraries such as python-telegram-bot to create interface for the telegram bot, Google Search API to search about company information, Beautiful Soup to web scrap details about the company, and OpenAI to generate the cover letter",
+        "Github repository: https://github.com/JCSnap/coverletterbot",
+      ],
+    },
+    {
+      projectName: "Cosmos Auto Clapper",
+      type: "Scripting Program",
+      descriptions: [
+        "Created a program with a graphical interface that allows users to automate various cosmetic processes in the corporate remote workplace app Cosmos",
+        "Leverages on libraries such as tkinter to simulate interaction with key presses, and pyautogui for the interface",
+        "Features include auto clapping, auto sending of emojis, and auto snowball throwing",
+        "It is meant to be a fun project to annoy and have fun with your coworkers in the remote workplace",
+        "Github repository: https://github.com/JCSnap/cosmos-auto-clapper",
+      ],
+    },
+    {
+      projectName: "Clone Websites and AI Games",
+      type: "Web Applications and Python Scripts",
+      descriptions: [
+        "Recreated half of the fonrtpage of Codomo and Nodeflair with Reactjs, javascript and CSS",
+        "Integrated custom features such as an AI chatbot into Codomo's website which answers questions about the company and nothing else",
+        "Created custom games with Python and OpenAI's API by integrating generative AI, based on their existing templates on Rolljak",
+        "More details can be found here: https://justin-cheah-portfolio.notion.site/Website-clones-a0c9780659054d5087cb7e4aaf156e94?pvs=4",
+      ],
+    },
+    {
+      projectName: "Student Deliverhy bot",
+      type: "Telegram bot",
+      descriptions: [
+        "Created a simple telegram bot with a partner that allows students to create orders for selected NUS food stalls, and also for students to take up delivery orders to earn a small fee",
+        "This was my first Hackathon project, and also the first time I created a telegram bot (or any project for that matter)",
+        "More details can be found here: https://justin-cheah-portfolio.notion.site/Student-DeliveRHy-5eaf0952d28744fdb7695837c67de9d9?pvs=4",
+        "Github repository: https://github.com/JCSnap/Student-DeliveRHy-bot",
+      ],
+    },
+    {
+      projectName: "Personal Website",
       type: "Web Application",
-      descriptions: [],
+      descriptions: [
+        "Created a personal website with Reactjs, javascript, bootstrap and CSS",
+        "Accounted for responsiveness of the website on different screen sizes",
+        "For more details, visit the current website you are on now :)",
+        "Github repository: https://github.com/JCSnap/JCSnap.github.io",
+      ],
     },
   ];
 
