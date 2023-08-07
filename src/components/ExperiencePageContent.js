@@ -1,6 +1,6 @@
 import React from "react";
 
-function ExperiencePageContent() {
+function ExperiencePageContent({ showContactInfo }) {
   const currentResumePath = "JustinCheahYunFei_resume_July2023_v1.pdf";
   const experienceData = {
     work: [
@@ -182,14 +182,20 @@ function ExperiencePageContent() {
   // Use these components in your page like this:
 
   return (
-    <div className="text-white px-3">
-      <h1 className="font-bold">Contact Me</h1>
-      <ContactInfo />
-      <h1 className="pt-3 font-bold">Work Experience</h1>
+    <div className="text-white">
+      {showContactInfo && (
+        <>
+          <h1 className="font-bold pb-3">Contact Me</h1>
+          <ContactInfo />
+        </>
+      )}
+      <h1 className="font-bold" id="experiences">
+        Work Experience
+      </h1>
       <ExperienceList experiences={experienceData.work} />
-      <h1 className="pt-3 font-bold">School Experience</h1>
-      <ExperienceList experiences={experienceData.school} />
-      <h1 className="pt-3 font-bold">Education</h1>
+      <h1 className="pt-3 font-bold" id="education">
+        Education
+      </h1>
       <Education />
     </div>
   );
