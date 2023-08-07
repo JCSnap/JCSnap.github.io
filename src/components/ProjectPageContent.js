@@ -137,7 +137,7 @@ function ProjectPageContent() {
   }
 
   return (
-    <div className="text-white">
+    <div className="text-white" id="projects">
       <h1 className="pt-3 font-bold">Projects</h1>
       <ProjectList projects={projectData} />
     </div>

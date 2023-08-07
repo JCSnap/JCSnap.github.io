@@ -10,7 +10,9 @@ const Experience = () => {
           <Sidebar />
         </div>
         <div className="col-lg-6 col-md-9 col-sm-12">
-          <ExperiencePageContent />
+          <div className="px-3">
+            <ExperiencePageContent showContactInfo={true} />
+          </div>
         </div>
         <div className="col-lg-3 d-lg-block d-none"></div>
       </div>
