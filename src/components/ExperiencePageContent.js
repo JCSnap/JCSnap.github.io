@@ -82,11 +82,11 @@ function ExperiencePageContent({ showContactInfo }) {
         <hr />
         <div id="companyInfo" className="d-flex flex-row">
           <div id="companyInfoLeft" className="flex-col col-6">
-            <p className="font-bold">{companyName}</p>
+            <p className="font-bold mb-1">{companyName}</p>
             <p className="fst-italic">{role}</p>
           </div>
-          <div id="companyInfoRight" className="flex-col col-6 text-end">
-            <p className="">{location}</p>
+          <div id="companyInfoRight " className="flex-col col-6 text-end">
+            <p className="mb-1">{location}</p>
             <p className="fst-italic">{period}</p>
           </div>
         </div>
@@ -154,8 +154,8 @@ function ExperiencePageContent({ showContactInfo }) {
             id="educationInfo"
             className="flex-row d-flex justify-content-between"
           >
-            <p className="font-bold">National University of Singapore</p>
-            <p className="fst-italic">2022 - 2026</p>
+            <p className="font-bold mb-1">National University of Singapore</p>
+            <p className="fst-italic mb-1">2022 - 2026</p>
           </div>
           <div>
             Double Degree in Computer Science and Business Administration
@@ -164,10 +164,10 @@ function ExperiencePageContent({ showContactInfo }) {
         <div id="hwach">
           <div
             id="educationInfo"
-            className="flex-row d-flex justify-content-between"
+            className="flex-row d-flex justify-content-between mt-4"
           >
-            <p className="font-bold">Hwa Chong Institution</p>
-            <p className="fst-italic">2016 - 2019</p>
+            <p className="font-bold mb-1">Hwa Chong Institution</p>
+            <p className="fst-italic mb-1">2016 - 2019</p>
           </div>
           <div>
             Singapore Cambridge GCE A-Level: AAAA/A in H2 Mathematics, H2
