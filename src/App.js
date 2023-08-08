@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <nav className="bg-main h-60 d-flex justify-content-between text-26 px-3">
+      <nav className="bg-main h-60 d-none justify-content-between text-26 px-3">
         <div className="text-white col-md-4 d-none d-md-block">JC</div>
         <div className="col-sm-12 col-md-8 d-flex justify-content-end">
           <Link to="/" className="text-white text">
