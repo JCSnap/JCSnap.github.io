@@ -6,7 +6,7 @@ function ProjectPageContent() {
       projectName: "SoulScribe - AI Journaling",
       type: "Cross Platform Mobile Application",
       descriptions: [
-        "Created SoulScribe, a gamified AI-powered journaling iOS and Android mobile application with a partner which achieved Artemis (highest achievement) for NUS Orbital",
+        "Created SoulScribe, a gamified AI-powered journaling iOS and Android mobile application with a partner which won the Judges Choice Awarn (top 0.58%, 3 out of 518 groups from NUS Computing) for NUS Orbital",
         "Implemented the frontend with React Native Expo, javascript, tailwindCSS; backend with nodejs, Firebase for authentification, cloud functions and database, Pinecone for vector database",
         "Leverages on libraries such as OpenAI's text-to-text API and Stable Diffusion's text-to-image API for generative AI functions, Langchain for LLM management, Redux for state management",
         "created CI/CD pipeline with Github Actions",
