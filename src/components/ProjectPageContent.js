@@ -37,6 +37,7 @@ function ProjectPageContent() {
         "emoSense is an application to help people suffering from Alexithymia (inability to identify and describe emotions) to better understand their emotions",
         "it identifies speech in real time, analyse and classify them based on the severity of the Alexithymia chosen, and provides an audio feedback to the user",
         "leverages on speech-to-audio, audio-to-text processing, text-to-text processing generative AI (OpenAI), and text-to-speech processing",
+      ],
     },
     {
       projectName: "AI Cover Letter Bot",
