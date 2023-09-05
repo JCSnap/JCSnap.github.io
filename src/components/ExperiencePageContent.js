@@ -14,11 +14,22 @@ function ExperiencePageContent({ showContactInfo }) {
         ],
       },
       {
+        companyName: "LFG",
+        role: "Software Developer Intern",
+        period: "August 2023 - Present",
+        location: "Singapore",
+        contributions: [
+          "LFG is a tech startup with a platform where travellers can auto-curate and share their iteneraries and experiences",
+          "Implement fullstack features for LFG's web application in an AGILE environment with Typescript, ReactJS, NextJS, Tailwind, Prisma",
+        ],
+      },
+      {
         companyName: "Codomo Pte Ltd",
         role: "AI and Software Engineer Intern",
         period: "May 2023 - August 2023",
         location: "Singapore",
         contributions: [
+          "Worked extensively on Rolljak, an eduTech software of Codomo similar to Kahoot, with greater emphasis on collaboration and variety",
           "Integrated OpenAI's API into the backend in Ruby on Rails with Langchain and speahheaded the implementation of Rolljak's AI Question Generator feature from scratch for 7 activity types and 4 upload types which have been pushed to production",
           "Implemented frontend features and UI/UX improvements with javascript, jQuery and Bootstrap",
           "Introduced ways to sanitise user inputs, prevent prompt injection attacks, and improved processing time by 30% by implementing concurrent programming",
