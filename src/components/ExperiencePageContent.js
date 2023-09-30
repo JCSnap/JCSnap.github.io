@@ -1,7 +1,7 @@
 import React from "react";
 
 function ExperiencePageContent({ showContactInfo }) {
-  const currentResumePath = "JustinCheahYunFei_resume_August2023_v1.pdf";
+  const currentResumePath = "JustinCheahYunFei_resume_Sep2023_v3.pdf";
   const experienceData = {
     work: [
       {
