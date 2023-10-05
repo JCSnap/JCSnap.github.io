@@ -10,7 +10,7 @@ function ExperiencePageContent({ showContactInfo }) {
         period: "August 2023 - Present",
         location: "Singapore",
         contributions: [
-          "Collaborate with Master Engineers and fellow interns to build Minimum Viable Products for NUS backed startups. Currently building a web application for Comcrop, Singapore's first and only rooftop farming startup using Nextjs, Reactjs, Django, MongoDB."
+          "Collaborate with Master Engineers and fellow interns to build Minimum Viable Products (MVPs) for NUS backed startups. Currently building a web application for Comcrop, Singapore's first and only rooftop farming startup using Nextjs, Reactjs, Django, MongoDB."
         ],
       },
       {
