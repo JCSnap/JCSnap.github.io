@@ -64,7 +64,7 @@ function ProjectPageContent() {
       projectName: "CLI tools",
       type: "Command Line Commands",
       descriptions: [
-        "Created a few commands for the command line interface to enhance productivity in the terminal",
+        "Created a few commands in rust for the command line interface to enhance productivity in the terminal",
         "Some of the commands include a command to check for file duplicates in a directory, command to ask a large language model (GPT) questions in the terminal and get short and succinct responses, and a command to access snippets of other commonly used commands",
         "Github repository: https://github.com/JCSnap/cli-tools",
       ],
