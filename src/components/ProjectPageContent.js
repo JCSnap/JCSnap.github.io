@@ -112,12 +112,6 @@ function ProjectPageContent() {
   }
 
   function ProjectItem({ projectName, type, descriptions }) {
-    // Function to check if the text contains a URL
-    function isUrl(text) {
-      const urlPattern = /https?:\/\/|www\./i;
-      return urlPattern.test(text);
-    }
-
     // Function to render description text with potential links
     function renderDescription(description) {
       const urlPattern = /(https?:\/\/[^\s]+)/i; // This pattern will search for http:// or https:// followed by any non-space characters.
