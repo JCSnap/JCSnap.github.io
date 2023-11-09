@@ -19,7 +19,13 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
+    - name: Set up Git user
+      run: |
+        git config --global user.name "JCSnap"
+        git config --global user.email "justinwoody1234@gmail.com"
+
     - name: Build and Deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run deploy
+
