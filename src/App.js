@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
-import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -26,9 +25,6 @@ function App() {
           <Link to="/contact" className="text-white">
             Contact
           </Link>
-          <Link to="blog" className="text-white">
-            Blog
-          </Link>
         </div>
       </nav>
 
@@ -37,7 +33,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );
