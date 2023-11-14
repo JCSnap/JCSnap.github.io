@@ -108,6 +108,7 @@ function ProjectPageContent() {
         "Also contains a command line interface for more advanced users",
         "Github repository: https://github.com/JCSnap/ip",
       ],
+    },
   ];
 
   function ProjectList({ projects }) {
