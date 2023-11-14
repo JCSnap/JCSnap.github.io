@@ -99,6 +99,15 @@ function ProjectPageContent() {
         "Github repository: https://github.com/JCSnap/JCSnap.github.io",
       ],
     },
+    {
+      projectName: "Bouncybob task manamgement app",
+      type: "Desktop Application",
+      descriptions: [
+        "Created a desktop application with Java and JavaFX for task management from a brownfield codebase",
+        "Contains a graphical interface for the common task management functions",
+        "Also contains a command line interface for more advanced users",
+        "Github repository: https://github.com/JCSnap/ip",
+      ],
   ];
 
   function ProjectList({ projects }) {
