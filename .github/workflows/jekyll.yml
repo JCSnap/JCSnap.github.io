@@ -53,12 +53,12 @@ jobs:
           bundle exec jekyll build --baseurl "/blog"
         env:
           JEKYLL_ENV: production
-      - name: Move _site to Root
-        run: |
-          mv blog/* ./
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v2
+        with:
+          artifact-name: site
+          path: blog/_site
 
   # Deployment job
   deploy:
