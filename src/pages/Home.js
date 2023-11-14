@@ -15,7 +15,7 @@ const Home = () => {
         <div className="col-lg-3 col-md-3 d-none d-md-block">
           <Sidebar />
         </div>
-        <div className="col-lg-6 col-md-9 col-sm-12">
+        <div className="col-lg-6 col-md-9 col-sm-12 p-3">
           <HomePageContent />
           <ExperiencePageContent showContactInfo={false} />
           <ProjectPageContent />

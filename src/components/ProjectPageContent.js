@@ -100,7 +100,7 @@ function ProjectPageContent() {
       ],
     },
     {
-      projectName: "Bouncybob task manamgement app",
+      projectName: "Bouncybob task management app",
       type: "Desktop Application",
       descriptions: [
         "Created a desktop application with Java and JavaFX for task management from a brownfield codebase",

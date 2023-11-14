@@ -13,11 +13,13 @@ function HomePageTableOfContents() {
 
   return (
     <div id="tableOfContent" className="sticky-top">
-      <div className="text-white px-3">Table of Contents</div>
+      <h4 className="text-white px-3 text-xl-start">Table of Contents</h4>
       <ul>
         {sections.map((section) => (
           <li key={section.id} className="py-1">
-            <a href={`#${section.id}`}>{section.label}</a>
+            <a className="text-white" href={`#${section.id}`}>
+              {section.label}
+            </a>
           </li>
         ))}
       </ul>
