@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Mod Review"
+date: 2023-11-14 15:47:50 +0800
+categories: jekyll update
+---
+
 # Mod Review
 
 My mod review for NUS, mainly Computer Science and Business Administration, and some GE modules though.
