@@ -17,6 +17,11 @@ const Sidebar = () => {
       url: "https://justin-cheah-portfolio.notion.site/8d1f053d01fc4303a41a21e7ad4de0cd?v=74eaa231efdf40b9a4d61f2cd23715e5&pvs=25",
       icon: "fa-solid fa-book",
     },
+    {
+      name: "Blog",
+      url: "https://jcsnap.github.io/blog/",
+      icon: "fa-solid fa-blog",
+    },
   ];
 
   return (
