@@ -10,9 +10,11 @@ function ExperiencePageContent({ showContactInfo }) {
         period: "August 2023 - Present",
         location: "Singapore",
         contributions: [
-          "Partner with Master Engineers and fellow interns to build Minimum Viable Products for NUS backed startups. Currently building a web application for Comcrop, Singapore's first and only rooftop farming startup using Nextjs, Reactjs, Django, MongoDB",
+          "Partner with Master Engineers and fellow interns to build Minimum Viable Products for NUS backed startups. Worked on a farm management system for Comcrop, Singapore's first and only rooftop farming startup using Nextjs, Reactjs, Django, MongoDB",
+          "Led the development of an MVP for another AI startup, making important technical decisions in setting up the infrastructure for the project from scratch, setting guidelines and reviewing code to ensure contributions follow best practices",
           "Implement features iteratively with AGILE methodologies based on stakeholder requirements, while ensuring robustness through Jest-based testing",
-          "Design and architected systems from scratch based on technical requirements and user stories, set up pipelines for continuous integration to help streamline testing processes",
+          "Design and architected systems (APIs, database, processes) from scratch based on technical requirements and user stories, set up pipelines for continuous integration to help streamline testing processes",
+          "Other technologies used include React Native, Typescript, Tailwind",
         ],
       },
       {
@@ -22,7 +24,10 @@ function ExperiencePageContent({ showContactInfo }) {
         location: "Singapore",
         contributions: [
           "LFG is a tech startup with a platform where travellers can auto-curate and share their iteneraries and experiences",
+          "Worked closely with founders to develop important features before their launch on Product Hunt",
           "Implement fullstack features for LFG's web application in an AGILE environment with Typescript, ReactJS, NextJS, Tailwind, Prisma",
+          "Contributed to major features such as banners, following/follower system, auto add images from Wikimedia, adding attractions to other placelists, hottest location, socials etc",
+          "Refactored a chunk of the codebase from client side to server side to improve performance and maintainability",
         ],
       },
       {
@@ -32,13 +37,14 @@ function ExperiencePageContent({ showContactInfo }) {
         location: "Singapore",
         contributions: [
           "Worked extensively on Rolljak, an eduTech software of Codomo similar to Kahoot, with greater emphasis on collaboration and variety",
-          "Integrated OpenAI's API into the backend in Ruby on Rails with Langchain and speahheaded the implementation of Rolljak's AI Question Generator feature from scratch for 7 activity types and 4 upload types which have been pushed to production",
-          "Implemented frontend features and UI/UX improvements with javascript, jQuery and Bootstrap",
+          "Integrated OpenAI's API into the backend in Ruby on Rails with Langchain and speahheaded the implementation of Rolljak's AI Question Generator feature from scratch for 7 activity types and 4 upload types which is now a huge selling point to clients",
+          "Implemented non-trivial fullstack features and UI/UX improvements with javascript, jQuery, Bootstrap, Ruby on Rails",
           "Introduced ways to sanitise user inputs, prevent prompt injection attacks, and improved processing time by 30% by implementing concurrent programming",
           "Improved the accuracy of the results by more than 50% with prompt engineering, and integrating usage of external tools like a calculator and Wikipedia into GPT",
           "Fixed frontend and backend bugs ranging from P1 (severe) to P3 (minor)",
           "Automated workflow such as benchmarking of question generation results by different prompts, and comparison with competitors' results using Python and Selenium",
           "Collaborated with team members in an AGILE environment with SCRUM framework. Exposed to procedures such as reviewing pull requests, sprint planning and review, leading deployment meetings etc",
+          "Reviewed pull requests and led certain deployment meetings",
           "Learn more about the AI feature at https://www.rolljak.com/ai",
           // more contributions...
         ],
