@@ -22,7 +22,7 @@ function NavigationBar() {
         },
         {
             label: "Resources",
-            href: ROUTES.YOUTUBE,
+            href: ROUTES.RESOURCES,
         },
     ];
 

@@ -4,4 +4,5 @@ export enum ROUTES {
     EDUCATION = "/education",
     RESOURCES = "/resources",
     YOUTUBE = "/resources/youtube",
+    READINGS = "/resources/readings",
 }
