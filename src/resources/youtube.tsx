@@ -1,4 +1,5 @@
 import NavigationBar from "../components/navigation-bar";
+import { SectionHeader } from "../components/header";
 
 interface Channel {
     name: string;
@@ -199,9 +200,8 @@ function Youtube() {
     return (
         <div>
             <NavigationBar />
-            <h1>Youtube Recommendations</h1>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="text-3xl font-bold text-gray-900 mb-10">YouTube Recommendations</h1>
+                <SectionHeader text="Youtube Recommendations" />
                 {Object.entries(recommendations).map(([category, channels]) => (
                     <div key={category} className="mb-6">
                         <h2 className="text-2xl font-semibold text-blue-600 mb-4">{category}</h2>

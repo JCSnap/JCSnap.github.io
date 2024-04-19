@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router";
 import { ROUTES } from "../../../constants/routes";
+import { SectionHeader } from "../../../components/header";
 
 function Resources() {
     const navigate = useNavigate();
     // youtube recommendation at /resources/youtube
     return (
         <div className="ml-6">
-            <h1 className="text-black font-semibold">Here are some of the things I do</h1>
+            <SectionHeader text="Here are some of the things I do" />
             <p>
                 Sometimes I write about tech, philosophy or random stuff in my{" "}
                 <a href="https://jcsnap.github.io/blog" className="text-blue-500 hover:underline">
