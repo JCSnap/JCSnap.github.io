@@ -1,6 +1,6 @@
 import Introduction from "./components/introduction";
 import NavigationBar from "../../components/navigation-bar";
-import Resources from "./components/resources";
+import AboutMe from "./components/about-me";
 import Contacts from "./components/contacts";
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
         <div>
             <NavigationBar />
             <Introduction />
-            <Resources />
+            <AboutMe />
             <Contacts />
         </div>
     );

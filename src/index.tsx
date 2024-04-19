@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Experiences from "./pages/experiences";
 import App from "./App";
-import Youtube from "./resources/youtube";
+import Resources from "./resources";
 import Education from "./pages/education";
 import { ROUTES } from "./constants/routes";
 import "@radix-ui/themes/styles.css";
@@ -19,7 +19,7 @@ root.render(
                     <Route path={ROUTES.HOME} element={<App />} />
                     <Route path={ROUTES.EXPERIENCES} element={<Experiences />} />
                     <Route path={ROUTES.EDUCATION} element={<Education />} />
-                    <Route path={ROUTES.YOUTUBE} element={<Youtube />} />
+                    <Route path={ROUTES.YOUTUBE} element={<Resources />} />
                 </Routes>
             </Theme>
         </body>
