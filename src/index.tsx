@@ -6,6 +6,7 @@ import Experiences from "./pages/experiences";
 import App from "./App";
 import Resources from "./resources";
 import Education from "./pages/education";
+import Projects from "./pages/projects";
 import Youtube from "./resources/youtube";
 import { ROUTES } from "./constants/routes";
 import "@radix-ui/themes/styles.css";
@@ -20,6 +21,7 @@ root.render(
                     <Route path={ROUTES.HOME} element={<App />} />
                     <Route path={ROUTES.EXPERIENCES} element={<Experiences />} />
                     <Route path={ROUTES.EDUCATION} element={<Education />} />
+                    <Route path={ROUTES.PROJECTS} element={<Projects />} />
                     <Route path={ROUTES.RESOURCES} element={<Resources />} />
                     <Route path={ROUTES.YOUTUBE} element={<Youtube />} />
                 </Routes>

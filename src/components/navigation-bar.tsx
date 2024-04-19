@@ -21,6 +21,10 @@ function NavigationBar() {
             href: ROUTES.EDUCATION,
         },
         {
+            label: "Projects",
+            href: ROUTES.PROJECTS,
+        },
+        {
             label: "Resources",
             href: ROUTES.RESOURCES,
         },
