@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Experiences from "./pages/experiences";
 import App from "./App";
 import Youtube from "./resources/youtube";
+import Education from "./pages/education";
 import { ROUTES } from "./constants/routes";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
@@ -17,6 +18,7 @@ root.render(
                 <Routes>
                     <Route path={ROUTES.HOME} element={<App />} />
                     <Route path={ROUTES.EXPERIENCES} element={<Experiences />} />
+                    <Route path={ROUTES.EDUCATION} element={<Education />} />
                     <Route path={ROUTES.YOUTUBE} element={<Youtube />} />
                 </Routes>
             </Theme>

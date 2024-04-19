@@ -1,12 +1,12 @@
 import NavigationBar from "../../components/navigation-bar";
 
-function Experiences() {
+function Education() {
     return (
-        <div>
+        <h1>
             <NavigationBar />
-            <h1>Experiences</h1>
-        </div>
+            Education
+        </h1>
     );
 }
 
-export default Experiences;
+export default Education;

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import { ROUTES } from "../../../constants/routes";
 
 function Resources() {
     const navigate = useNavigate();
@@ -20,11 +21,26 @@ function Resources() {
                 </a>
                 .
             </p>
+            <p>
+                I work for different organizations on interesting problems. You can find out more about my work{" "}
+                <button onClick={() => navigate(ROUTES.EXPERIENCES)} className="text-blue-500 hover:underline">
+                    here
+                </button>
+                .
+            </p>
+            <p>
+                I am doing a double degree in Computer Science and Business Administration, you can find out more about
+                what I study and have studied{" "}
+                <button onClick={() => navigate(ROUTES.EXPERIENCES)} className="text-blue-500 hover:underline">
+                    here
+                </button>
+                .
+            </p>
             <p>I teach Physics, Math and Economics for A-Level students.</p>
             <p>I enjoy philosophy, especially in the area of epistemology.</p>
             <p>
                 I watch a lot of random stuff, you can find some of my youtube channel recommendations{" "}
-                <button onClick={() => navigate("/resources/youtube")} className="text-blue-500 hover:underline">
+                <button onClick={() => navigate(ROUTES.YOUTUBE)} className="text-blue-500 hover:underline">
                     here
                 </button>
                 .

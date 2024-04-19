@@ -16,6 +16,14 @@ function NavigationBar() {
             label: "Experiences",
             href: ROUTES.EXPERIENCES,
         },
+        {
+            label: "Education",
+            href: ROUTES.EDUCATION,
+        },
+        {
+            label: "Resources",
+            href: ROUTES.YOUTUBE,
+        },
     ];
 
     return (
