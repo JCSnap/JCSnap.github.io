@@ -8,6 +8,7 @@ import Resources from "./resources";
 import Education from "./pages/education";
 import Projects from "./pages/projects";
 import Skills from "./pages/skills";
+import BucketList from "./pages/bucket-list";
 import Youtube from "./resources/youtube";
 import Readings from "./resources/readings";
 import { ROUTES } from "./constants/routes";
@@ -26,6 +27,7 @@ root.render(
                     <Route path={ROUTES.PROJECTS} element={<Projects />} />
                     <Route path={ROUTES.SKILLS} element={<Skills />} />
                     <Route path={ROUTES.RESOURCES} element={<Resources />} />
+                    <Route path={ROUTES.BUCKET_LIST} element={<BucketList />} />
                     <Route path={ROUTES.YOUTUBE} element={<Youtube />} />
                     <Route path={ROUTES.READINGS} element={<Readings />} />
                 </Routes>

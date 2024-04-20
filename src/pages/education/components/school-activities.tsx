@@ -93,7 +93,7 @@ function SchoolActivities() {
         <div>
             <SectionHeader text="Some other interesting things I did in school" />
             {schoolActivities.map((activity, index) => (
-                <div key={index}>
+                <div key={index} className="mb-4">
                     <h2 className="text-xl font-semibold text-blue-600">{activity.school}</h2>
                     <p className="text-gray-600 mt-2">{activity.activities}</p>
                 </div>

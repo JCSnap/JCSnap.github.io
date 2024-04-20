@@ -5,6 +5,7 @@ export enum ROUTES {
     PROJECTS = "/projects",
     SKILLS = "/skills",
     RESOURCES = "/resources",
+    BUCKET_LIST = "/bucket-list",
     YOUTUBE = "/resources/youtube",
     READINGS = "/resources/readings",
 }

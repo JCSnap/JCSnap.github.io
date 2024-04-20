@@ -40,6 +40,11 @@ function NavigationBar() {
             internal: true,
         },
         {
+            label: "Bucket List",
+            href: ROUTES.BUCKET_LIST,
+            internal: true,
+        },
+        {
             label: "Blog",
             href: "https://jcsnap.github.io/blog/",
             internal: false,

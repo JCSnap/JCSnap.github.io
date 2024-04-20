@@ -14,8 +14,7 @@ function Education() {
             description: (
                 <>
                     Awarded the NUS ASEAN Undergraduate Scholarship. Tentative specialisations include{" "}
-                    <strong>Artificial Intelligence</strong>, <strong>Networking and Distributed Systems</strong>. I was
-                    in Raffles Hall in year 1, where I was part of RHDevs. Now, I am in NUS Hackers.
+                    <strong>Artificial Intelligence</strong>, <strong>Networking and Distributed Systems</strong>.
                 </>
             ),
         },
@@ -25,18 +24,22 @@ function Education() {
             duration: "August 2022 - May 2026",
             location: "Singapore",
             description: (
-                <>This is my second degree, I took modules ranging from accounting, marketing, finance, operations.</>
+                <>
+                    This is my second degree, I took modules ranging from accounting, marketing, finance, operations and
+                    will (probably) be specialising in <strong>Finance</strong>.
+                </>
             ),
         },
         {
-            title: "Physics, Mathematics, Economics, Knowledge Inquiry (Philosophy)",
+            title: "A-Levels 90/90RP",
             institution: "Hwa Chong Institution",
             duration: "January 2016 - December 2021",
             location: "Singapore",
             description: (
                 <>
-                    Learnt a lot throughout high school and junior college. I was in the Humanities Programme, and this
-                    is where I fell in love with philosophy.
+                    Was in the humanities programme through high school and took{" "}
+                    <strong>H2 Economics, H2 Math, H2 Physics, H2 Knowledge Inquiry (Philosophy)</strong> in junior
+                    college. This is where I developed my interest in philosophy.
                 </>
             ),
         },

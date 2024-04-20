@@ -32,10 +32,7 @@ function AboutMe() {
             <p>I enjoy philosophy, especially in the area of epistemology.</p>
             <p>
                 Sometimes I write about philosophy, tech and other random stuff. You can find my blog{" "}
-                <a href="https://jcsnap.github.io/blog/" className="text-blue-500 hover:underline">
-                    here
-                </a>
-                .
+                <Link href="https://jcsnap.github.io/blog/">here</Link>.
             </p>
             <p>
                 I watch a lot of random stuff, you can find some of my youtube channel recommendations{" "}
