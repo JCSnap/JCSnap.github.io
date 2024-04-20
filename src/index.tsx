@@ -8,6 +8,7 @@ import Resources from "./resources";
 import Education from "./pages/education";
 import Projects from "./pages/projects";
 import Youtube from "./resources/youtube";
+import Readings from "./resources/readings";
 import { ROUTES } from "./constants/routes";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
@@ -24,6 +25,7 @@ root.render(
                     <Route path={ROUTES.PROJECTS} element={<Projects />} />
                     <Route path={ROUTES.RESOURCES} element={<Resources />} />
                     <Route path={ROUTES.YOUTUBE} element={<Youtube />} />
+                    <Route path={ROUTES.READINGS} element={<Readings />} />
                 </Routes>
             </Theme>
         </body>
