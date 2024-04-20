@@ -55,12 +55,12 @@ function NavigationBar() {
                 <span className="ml-4 text-xl md:hidden">{getLabelFromHref(activeTab)}</span>
             </button>
             <ul
-                className={`absolute md:relative bg-white shadow w-full md:flex md:pl-2 transition-transform duration-500 ${
-                    isMenuOpen ? "translate-x-0" : "-translate-x-full"
+                className={`absolute md:relative bg-white shadow w-full md:flex md:items-center transition-transform duration-500 ${
+                    isMenuOpen ? "translate-x-0" : "md:translate-x-0 -translate-x-full"
                 }`}
             >
                 {tabs.map((tab) => (
-                    <li key={tab.label} className="md:pr-4">
+                    <li key={tab.label} className="md:pr-2">
                         {tab.internal ? (
                             <button
                                 onClick={() => {
