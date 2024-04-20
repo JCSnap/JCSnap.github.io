@@ -49,7 +49,11 @@ function NavigationBar() {
                 &#9776; {/* Hamburger Icon */}
                 <span className="ml-4 text-xl md:hidden">{getLabelFromHref(activeTab)}</span>
             </button>
-            <ul className={`absolute md:relative bg-white w-full md:flex md:pl-2 ${isMenuOpen ? "block" : "hidden"}`}>
+            <ul
+                className={`absolute md:relative bg-white shadow w-full md:flex md:pl-2 ${
+                    isMenuOpen ? "block" : "hidden"
+                }`}
+            >
                 {tabs.map((tab) => (
                     <li key={tab.label} className="md:pr-4">
                         {tab.internal ? (
