@@ -7,7 +7,7 @@ function Experiences() {
     const experiences = [
         {
             title: "Incoming Software Engineer Intern",
-            company: "Kleep",
+            company: "Kleep AI",
             duration: "August 2024 - December 2024",
             location: "Paris, France",
             description: (
@@ -96,7 +96,7 @@ function Experiences() {
         {
             title: "AI and Software Engineer Intern",
             company: "Codomo",
-            duration: "2017 - 2019",
+            duration: "May 2023 - August 2023",
             location: "Singapore",
             description: (
                 <>
