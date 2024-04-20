@@ -1,7 +1,14 @@
+import NavigationBar from "../../components/navigation-bar";
+import { Container } from "@radix-ui/themes";
+import InProgress from "../home/components/in-progress";
+
 function Skills() {
     return (
         <div>
-            <h1>Skills</h1>
+            <NavigationBar />
+            <Container>
+                <InProgress />
+            </Container>
         </div>
     );
 }
