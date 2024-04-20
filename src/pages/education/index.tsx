@@ -31,7 +31,7 @@ function Education() {
             ),
         },
         {
-            title: "A-Levels 90/90RP",
+            title: "A-Levels",
             institution: "Hwa Chong Institution",
             duration: "January 2016 - December 2021",
             location: "Singapore",

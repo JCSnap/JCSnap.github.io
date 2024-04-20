@@ -10,8 +10,8 @@ function SchoolActivities() {
                     <ul>
                         <li>
                             Was in <Link href="https://nus.edu.sg/osa/raffleshall">Raffles Hall</Link> in year 1 where I
-                            played in the ultimate frisbee team, plan some spooky Halloween event, plan some events for
-                            the Musical Production team, and learnt web development in RHDevs.
+                            played in the ultimate frisbee team, planed some spooky Halloween event, planed some events
+                            for the Musical Production team, and learnt web development in RHDevs.
                         </li>
                         <li>
                             Is now in <Link href="https://www.nushackers.org/">NUS Hackers</Link> trying to spread the{" "}
@@ -81,7 +81,7 @@ function SchoolActivities() {
                         <li>Played a lot of ultimate frisbee and football.</li>
                         <li>
                             Did a <Link href="https://hawkerflockers.wixsite.com/hawkerflockers">project</Link> to
-                            promote hawker food (and mostly just filming hawker food reviews) which someone won 3rd
+                            promote hawker food (and mostly just filming hawker food reviews) which somehow won 3rd
                             place out of more than 500 groups.
                         </li>
                     </ul>
