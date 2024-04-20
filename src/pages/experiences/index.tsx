@@ -9,12 +9,7 @@ function Experiences() {
             company: "Kleep",
             duration: "August 2024 - December 2024",
             location: "Paris, France",
-            description: (
-                <>
-                    Will be working on the software supporting Kleep's size recommendation AI. What better location to
-                    work with tech and fashion than in <strong>Paris</strong>.
-                </>
-            ),
+            description: <>Will be working on the software supporting Kleep's size recommendation AI.</>,
         },
         {
             title: "Incoming Software Engineer Intern",

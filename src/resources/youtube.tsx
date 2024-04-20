@@ -32,13 +32,29 @@ function Youtube() {
             {
                 name: "Computerphile",
                 description: "Computer science concepts explained by experts.",
+                rating: 3,
+            },
+            {
+                name: "Code Bullet",
+                description: "Entertaining AI and game development.",
+                rating: 3,
+            },
+            {
+                name: "ThePrimeagen",
+                description: "Opinions on tech stuff.",
+                rating: 4,
+            },
+            {
+                name: "Zach Star",
+                description: "Not really tech but he does have some interesting videos on math ish stuff.",
                 rating: 4,
             },
         ],
         Movies: [
             {
-                name: "CinemaSins",
-                description: "CinemaSins is a channel that provides humorous reviews of movies.",
+                name: "NerdExplains",
+                description: "How to beat [insert horror movie here] videos.",
+                rating: 4,
             },
         ],
         Philosophy: [
@@ -55,7 +71,7 @@ function Youtube() {
             {
                 name: "Philosophy Battle",
                 description: "A very small channel but it provides very in depth analysis of epistemology.",
-                rating: 5,
+                rating: 3,
             },
             {
                 name: "Pursuit of Wonder",
@@ -78,6 +94,11 @@ function Youtube() {
                 description: "Talk to the camera style, more technical",
                 rating: 3,
             },
+            {
+                name: "Carneades.org",
+                description: "In depth analysis of philosophical concepts.",
+                rating: 2,
+            },
         ],
         Economics: [
             {
@@ -93,6 +114,31 @@ function Youtube() {
             {
                 name: "The Plain Bagel",
                 description: "A 'genuine' perspective on economics and finance.",
+                rating: 3,
+            },
+            {
+                name: "Johny Harris",
+                description: "Journalism with good visuals and storytelling, can be a bit political.",
+                rating: 3,
+            },
+            {
+                name: "RealLifeLore",
+                description: "Touches on real world economics and explains concepts in a simple way.",
+                rating: 4,
+            },
+            {
+                name: "Vox",
+                description: "High quality production and storytelling, can be a bit political.",
+                rating: 4,
+            },
+            {
+                name: "CGP Grey",
+                description: "Not really 'economic' but he does have some interesting adjacent videos in the past.",
+                rating: 4,
+            },
+            {
+                name: "The Rest Of Us",
+                description: "Economics concepts (and other adjacent stuff) explained.",
                 rating: 3,
             },
         ],
@@ -142,6 +188,11 @@ function Youtube() {
                 description: "Comedy and history with simple animations.",
                 rating: 4,
             },
+            {
+                name: "AlternateHistoryHub",
+                description: "Alternate history scenarios with animations.",
+                rating: 4,
+            },
         ],
         "Science and Engineering": [
             {
@@ -187,7 +238,42 @@ function Youtube() {
             {
                 name: "minutephysics",
                 description:
-                    "Interesint animated explanations on common science questions that we don't really know the answers to.",
+                    "Interesting animated explanations on common science questions that we don't really know the answers to.",
+                rating: 4,
+            },
+            {
+                name: "MinuteEarth",
+                description: "Similar to minutephysics.",
+                rating: 3,
+            },
+            {
+                name: "PBS Eons",
+                description: "Focusing on the history of ancient life on Earth (dinosaur, evolution and stuff).",
+                rating: 3,
+            },
+            {
+                name: "Stuff Made Here",
+                description: "Guy building cool stuff.",
+                rating: 4,
+            },
+            {
+                name: "Tom Scott",
+                description: "Unique videos.",
+                rating: 4,
+            },
+            {
+                name: "Adam Savage's Tested",
+                description: "Also a cool guy building cool stuff.",
+                rating: 4,
+            },
+            {
+                name: "AsapSCIENCE",
+                description: "Interesting science questions answered.",
+                rating: 3,
+            },
+            {
+                name: "Arvin Ash",
+                description: "Intuitive explanations of physics concepts.",
                 rating: 4,
             },
         ],
