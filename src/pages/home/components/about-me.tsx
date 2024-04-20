@@ -33,6 +33,13 @@ function AboutMe() {
             <p>I teach Physics, Math and Economics for A-Level students.</p>
             <p>I enjoy philosophy, especially in the area of epistemology.</p>
             <p>
+                Sometimes I write about philosophy, tech and other random stuff. You can find my blog{" "}
+                <a href="https://jcsnap.github.io/blog/" className="text-blue-500 hover:underline">
+                    here
+                </a>
+                .
+            </p>
+            <p>
                 I watch a lot of random stuff, you can find some of my youtube channel recommendations{" "}
                 <button onClick={() => navigate(ROUTES.YOUTUBE)} className="text-blue-500 hover:underline">
                     here

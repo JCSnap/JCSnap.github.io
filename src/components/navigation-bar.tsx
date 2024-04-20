@@ -12,22 +12,32 @@ function NavigationBar() {
         {
             label: "JCSnap",
             href: ROUTES.HOME,
+            internal: true,
         },
         {
             label: "Experiences",
             href: ROUTES.EXPERIENCES,
+            internal: true,
         },
         {
             label: "Education",
             href: ROUTES.EDUCATION,
+            internal: true,
         },
         {
             label: "Projects",
             href: ROUTES.PROJECTS,
+            internal: true,
         },
         {
             label: "Resources",
             href: ROUTES.RESOURCES,
+            internal: true,
+        },
+        {
+            label: "Blog",
+            href: "https://jcsnap.github.io/blog/",
+            internal: false,
         },
     ];
 
@@ -42,17 +52,31 @@ function NavigationBar() {
             <ul className={`absolute md:relative bg-white w-full md:flex md:pl-2 ${isMenuOpen ? "block" : "hidden"}`}>
                 {tabs.map((tab) => (
                     <li key={tab.label} className="md:pr-4">
-                        <button
-                            onClick={() => {
-                                navigate(tab.href);
-                                setIsMenuOpen(false); // Close menu on click
-                            }}
-                            className={`text-xl block md:inline-block p-4 ${
-                                tab.href === activeTab ? "border-b-2 border-sky-800" : "hover:bg-gray-300"
-                            } transition-colors duration-300`}
-                        >
-                            {tab.label}
-                        </button>
+                        {tab.internal ? (
+                            <button
+                                onClick={() => {
+                                    navigate(tab.href);
+                                    setIsMenuOpen(false);
+                                }}
+                                className={`text-xl block md:inline-block p-4 ${
+                                    tab.href === pathname ? "border-b-2 border-sky-800" : "hover:bg-gray-300"
+                                } transition-colors duration-300`}
+                            >
+                                {tab.label}
+                            </button>
+                        ) : (
+                            <a
+                                href={tab.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`text-xl block md:inline-block p-4 hover:bg-gray-300 transition-colors duration-300 ${
+                                    tab.href === pathname ? "border-b-2 border-sky-800" : ""
+                                }`}
+                                onClick={() => setIsMenuOpen(false)}
+                            >
+                                {tab.label}
+                            </a>
+                        )}
                     </li>
                 ))}
             </ul>
