@@ -1,5 +1,6 @@
 import NavigationBar from "../../components/navigation-bar";
 import { SectionHeader } from "../../components/header";
+import Container from "../../components/container";
 
 function Experiences() {
     const experiences = [
@@ -83,7 +84,7 @@ function Experiences() {
     return (
         <div>
             <NavigationBar />
-            <div className="max-w-4xl mx-auto px-4 py-8">
+            <Container>
                 <SectionHeader text="Experiences" />
                 {experiences.map((exp, index) => (
                     <div key={index} className="bg-white shadow-md rounded-lg p-6 mb-6">
@@ -95,7 +96,7 @@ function Experiences() {
                         <p className="text-gray-600 mt-2">{exp.description}</p>
                     </div>
                 ))}
-            </div>
+            </Container>
         </div>
     );
 }

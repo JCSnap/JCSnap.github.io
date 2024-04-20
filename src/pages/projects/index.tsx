@@ -1,5 +1,6 @@
 import NavigationBar from "../../components/navigation-bar";
 import { SectionHeader } from "../../components/header";
+import Container from "../../components/container";
 
 function Projects() {
     const projects = [
@@ -78,7 +79,7 @@ function Projects() {
     return (
         <div>
             <NavigationBar />
-            <div className="max-w-4xl mx-auto px-4 py-8">
+            <Container>
                 <SectionHeader text="Projects" />
                 <div className="space-y-6">
                     {projects.map((project, index) => (
@@ -88,7 +89,7 @@ function Projects() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </Container>
         </div>
     );
 }
