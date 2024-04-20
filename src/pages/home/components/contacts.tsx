@@ -27,7 +27,7 @@ function Contacts() {
         },
     ];
     return (
-        <div className="mt-10">
+        <div className="mt-10 mb-4">
             <div className="flex justify-center">
                 {contacts.map((contact) => (
                     <a

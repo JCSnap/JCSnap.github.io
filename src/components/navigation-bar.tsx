@@ -44,7 +44,7 @@ function NavigationBar() {
     const getLabelFromHref = (href: string) => tabs.find((tab) => tab.href === href)?.label;
 
     return (
-        <nav className="relative">
+        <nav className="fixed top-0 w-full z-50 bg-white shadow">
             <button className="text-3xl p-4 md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 &#9776; {/* Hamburger Icon */}
                 <span className="ml-4 text-xl md:hidden">{getLabelFromHref(activeTab)}</span>

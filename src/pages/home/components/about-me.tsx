@@ -10,7 +10,7 @@ function AboutMe() {
             <SectionHeader text="Here are some of the things I do" />
             <p>
                 I code for school and outside of school. You can find my projects on{" "}
-                <a href="httips://github.com/JCSnap" className="text-blue-500 hover:underline">
+                <a href="https://github.com/JCSnap" className="text-blue-500 hover:underline">
                     GitHub
                 </a>
                 .
