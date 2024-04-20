@@ -30,6 +30,11 @@ function NavigationBar() {
             internal: true,
         },
         {
+            label: "Skills",
+            href: ROUTES.SKILLS,
+            internal: true,
+        },
+        {
             label: "Resources",
             href: ROUTES.RESOURCES,
             internal: true,
