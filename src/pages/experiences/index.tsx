@@ -2,6 +2,7 @@ import NavigationBar from "../../components/navigation-bar";
 import { SectionHeader } from "../../components/header";
 import Container from "../../components/container";
 import { TECHSTACK } from "../../constants/teckstack";
+import Link from "../../components/link";
 
 function Experiences() {
     const experiences = [
@@ -13,15 +14,7 @@ function Experiences() {
             description: (
                 <>
                     Will be working on the software supporting Kleep's size recommendation{" "}
-                    <a
-                        href="https://www.kleep.ai/"
-                        className="text-blue-500 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        AI
-                    </a>
-                    .
+                    <Link href="https://www.kleep.ai/">AI</Link>.
                 </>
             ),
             techstack: [],
@@ -34,15 +27,7 @@ function Experiences() {
             description: (
                 <>
                     Will be working on the infrastructure supporting Krutrim's{" "}
-                    <a
-                        href="https://chat.olakrutrim.com/home"
-                        className="text-blue-500 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Large Language Model
-                    </a>{" "}
-                    similar to ChatGPT.
+                    <Link href="https://chat.olakrutrim.com/home">Large Language Model</Link> similar to ChatGPT.
                 </>
             ),
             techstack: [],
@@ -78,17 +63,9 @@ function Experiences() {
             location: "Singapore",
             description: (
                 <>
-                    Helped build features for the LFG{" "}
-                    <a
-                        href="https://www.lfg.travel/"
-                        className="text-blue-500 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        app
-                    </a>
-                    , contributed to major features such as the social system, auto adding images from Wikimedia,
-                    hottest locations section etc.
+                    Helped build features for the LFG <Link href="https://www.lfg.travel/">app</Link>, contributed to
+                    major features such as the social system, auto adding images from Wikimedia, hottest locations
+                    section etc.
                 </>
             ),
             techstack: [TECHSTACK.TAILWIND, TECHSTACK.TYPESCRIPT, TECHSTACK.REACT, TECHSTACK.NEXT, TECHSTACK.PRISMA],
@@ -102,15 +79,7 @@ function Experiences() {
                 <>
                     Led the development and integration of the generative AI feature from scratch for 4 different upload
                     types and 6 different question types. Visit the website at{" "}
-                    <a
-                        href="https://www.rolljak.com/ai"
-                        className="text-blue-500 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        here
-                    </a>{" "}
-                    to see the feature in detail.
+                    <Link href="https://www.rolljak.com/ai">here</Link> to see the feature in detail.
                 </>
             ),
             techstack: [TECHSTACK.BOOSTRAP, TECHSTACK.RUBY, TECHSTACK.RAILS, TECHSTACK.JAVASCRIPT, TECHSTACK.JQUERY],

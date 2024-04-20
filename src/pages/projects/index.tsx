@@ -1,6 +1,7 @@
 import NavigationBar from "../../components/navigation-bar";
 import { SectionHeader } from "../../components/header";
 import Container from "../../components/container";
+import Link from "../../components/link";
 
 function Projects() {
     const projects = [
@@ -23,15 +24,8 @@ function Projects() {
                 <>
                     An AI-powered journaling app published to App Store and Play Store. Similar to Spotify Wrapped, It
                     identifies highlights and create personalised AI art. Features and documentations can be found{" "}
-                    <a
-                        href="https://tinyurl.com/soulscribeai"
-                        className="text-blue-500 hover:underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        here.
-                    </a>
-                    . Created using React Native, Javascript, Tailwind, Firebase, Stable Diffusion, OpenAI, Pinecone.
+                    <Link href="https://tinyurl.com/soulscribeai">here.</Link>. Created using React Native, Javascript,
+                    Tailwind, Firebase, Stable Diffusion, OpenAI, Pinecone.
                 </>
             ),
         },

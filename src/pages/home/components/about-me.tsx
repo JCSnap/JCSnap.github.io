@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import { ROUTES } from "../../../constants/routes";
 import { SectionHeader } from "../../../components/header";
+import Link from "../../../components/link";
 
 function AboutMe() {
     const navigate = useNavigate();
@@ -10,10 +11,7 @@ function AboutMe() {
             <SectionHeader text="Here are some of the things I do" />
             <p>
                 I code for school and outside of school. You can find my projects on{" "}
-                <a href="https://github.com/JCSnap" className="text-blue-500 hover:underline">
-                    GitHub
-                </a>
-                .
+                <Link href="https://github.com/JCSnap">GitHub</Link>.
             </p>
             <p>
                 I work for different organizations on interesting problems. You can find out more about my work{" "}
