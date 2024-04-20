@@ -21,7 +21,7 @@ function Resources() {
             description: "Some of the articles/videos that left a huge impact on me.",
         },
         {
-            label: "Epistemology notes",
+            label: "Epistemology Notes",
             href: "https://justin-cheah-portfolio.notion.site/011277958bc7401c8f06d7eb82c75190?v=32060027bff940b29e018d4e02b5556c",
             internal: false,
             description: "Notes for the Knowledge and Inquiry A-Level subject, mainly in episemology.",
