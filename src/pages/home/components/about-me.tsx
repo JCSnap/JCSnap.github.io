@@ -25,7 +25,7 @@ function AboutMe() {
             <p>
                 I am doing a double degree in Computer Science and Business Administration, you can find out more about
                 what I study and have studied{" "}
-                <button onClick={() => navigate(ROUTES.EXPERIENCES)} className="text-blue-500 hover:underline">
+                <button onClick={() => navigate(ROUTES.EDUCATION)} className="text-blue-500 hover:underline">
                     here
                 </button>
                 .
