@@ -58,7 +58,7 @@ function NavigationBar() {
                                     navigate(tab.href);
                                     setIsMenuOpen(false);
                                 }}
-                                className={`text-xl block md:inline-block p-4 ${
+                                className={`w-full text-xl block md:inline-block p-4 ${
                                     tab.href === pathname ? "border-b-2 border-sky-800" : "hover:bg-gray-300"
                                 } transition-colors duration-300`}
                             >
@@ -69,7 +69,7 @@ function NavigationBar() {
                                 href={tab.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`text-xl block md:inline-block p-4 hover:bg-gray-300 transition-colors duration-300 ${
+                                className={`text-xl text-center block md:inline-block p-4 hover:bg-gray-300 transition-colors duration-300 ${
                                     tab.href === pathname ? "border-b-2 border-sky-800" : ""
                                 }`}
                                 onClick={() => setIsMenuOpen(false)}
