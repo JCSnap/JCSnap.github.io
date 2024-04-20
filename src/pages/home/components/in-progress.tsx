@@ -1,4 +1,3 @@
-import NavigationBar from "../../../components/navigation-bar";
 import Container from "../../../components/container";
 
 function InProgress() {
