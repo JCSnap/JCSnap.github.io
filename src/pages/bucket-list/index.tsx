@@ -1,12 +1,11 @@
 import NavigationBar from "../../components/navigation-bar";
-import { SectionHeader } from "../../components/header";
 import InProgress from "../home/components/in-progress";
 
 function BucketList() {
     return (
         <div>
+            <div className="my-8" />
             <NavigationBar />
-            <SectionHeader text="My Bucket List" />
             <InProgress />
         </div>
     );

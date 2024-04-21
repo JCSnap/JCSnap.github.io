@@ -1,6 +1,6 @@
-import NavigationBar from "../components/navigation-bar";
-import { SectionHeader } from "../components/header";
-import Container from "../components/container";
+import NavigationBar from "../../components/navigation-bar";
+import { SectionHeader } from "../../components/header";
+import Container from "../../components/container";
 
 interface Channel {
     name: string;

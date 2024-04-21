@@ -1,8 +1,8 @@
-import { SectionHeader } from "../components/header";
-import { ROUTES } from "../constants/routes";
+import { SectionHeader } from "../../components/header";
+import { ROUTES } from "../../constants/routes";
 import { useNavigate } from "react-router";
-import NavigationBar from "../components/navigation-bar";
-import Container from "../components/container";
+import NavigationBar from "../../components/navigation-bar";
+import Container from "../../components/container";
 
 function Resources() {
     const navigate = useNavigate();
