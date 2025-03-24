@@ -48,4 +48,19 @@ export const modules = [
             "GESS1029 Everyday Ethics in Singapore",
         ],
     },
+    {
+        semester: "AY2024/2025 Semester 1",
+        modules: ["Went for NOC, interned in Paris for 5 months"],
+    },
+    {
+        semester: "AY2024/2025 Semester 2",
+        modules: [
+            "CS2106 Operating Systems",
+            "CS3230 Algorithm Design and Analysis",
+            "CS4248 Natural Language Processing",
+            "FIN3702 Investment Analysis and Portfolio Management",
+            "FIN3703 Financial Management",
+            "HSI2009 What is a Planet?",
+        ],
+    },
 ];

@@ -9,21 +9,29 @@ function SchoolActivities() {
                 <>
                     <ul>
                         <li>
-                            Was in <Link href="https://nus.edu.sg/osa/raffleshall">Raffles Hall</Link> in year 1 where I
-                            played in the ultimate frisbee team, planed some spooky Halloween event, planed some events
-                            for the Musical Production team, and learnt web development in RHDevs.
-                        </li>
-                        <li>
                             Is now in <Link href="https://www.nushackers.org/">NUS Hackers</Link> trying to spread the{" "}
                             <Link href="https://www.nushackers.org/hackerdefined/">hacker culture</Link> in NUS. I met a
-                            lot of cool people here and listened to a bunch of interesting talks.
+                            lot of cool people here.
                         </li>
                         <li>
-                            Joining the{" "}
+                            Is also part of{" "}
+                            <Link href="https://enterprise.nus.edu.sg/education-programmes/nus-overseas-colleges/nhouse/">
+                                N-House
+                            </Link>{" "}
+                            trying to build something. Had a lot of fun and met many interesting people building
+                            interesting things here.
+                        </li>
+                        <li>
+                            Went for the{" "}
                             <Link href="https://enterprise.nus.edu.sg/education-programmes/nus-overseas-colleges/">
                                 NOC Programme
                             </Link>{" "}
-                            soon!
+                            where I interned in Paris for 5 months.
+                        </li>
+                        <li>
+                            Was in <Link href="https://nus.edu.sg/osa/raffleshall">Raffles Hall</Link> in year 1 where I
+                            played in the ultimate frisbee team, planned some spooky Halloween event, planed some events
+                            for the Musical Production team, and learnt web development in RHDevs.
                         </li>
                     </ul>
                 </>

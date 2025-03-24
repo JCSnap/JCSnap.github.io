@@ -8,6 +8,7 @@ enum READING_TYPE {
     ARTICLE = "article",
     VIDEO = "video",
     MOVIES = "movies",
+    WEBSITES = "websites",
 }
 
 function getTagStyles(type: READING_TYPE) {
@@ -20,6 +21,8 @@ function getTagStyles(type: READING_TYPE) {
             return { label: "Video", bgColor: "bg-red-500" };
         case READING_TYPE.MOVIES:
             return { label: "Movies", bgColor: "bg-yellow-500" };
+        case READING_TYPE.WEBSITES:
+            return { label: "Websites", bgColor: "bg-purple-500" };
         default:
             return { label: "", bgColor: "bg-gray-500" };
     }
@@ -77,6 +80,18 @@ function Readings() {
             href: "https://youtu.be/wgWNtlz-2vM?si=-6VpP5r3CTqGm2Z8",
             type: READING_TYPE.VIDEO,
         },
+        {
+            title: "Refactoring Guru",
+            description: "A collection of design patterns, code smells, refactoring strategies and best practices.",
+            href: "https://refactoring.guru/",
+            type: READING_TYPE.WEBSITES,
+        },
+        {
+            title: "Techniques to improve reliability for GPT prompting",
+            description: "A collection of techniques to improve the reliability of prompts, backed by research.",
+            href: "https://cookbook.openai.com/articles/techniques_to_improve_reliability",
+            type: READING_TYPE.ARTICLE,
+        },
     ];
     return (
         <div>
@@ -92,11 +107,11 @@ function Readings() {
                         >
                             <h2 className="text-xl font-semibold text-blue-600 flex items-center">
                                 <span
-                                    className={`inline-block ${tag.bgColor} text-white px-2 py-1 text-sm rounded mr-2 w-16 flex justify-center`}
+                                    className={`inline-block ${tag.bgColor} text-white px-2 py-1 text-xs md:text-sm rounded mr-2 w-12 md:w-20 flex justify-center`}
                                 >
                                     {tag.label}
                                 </span>
-                                {reading.title}
+                                <span> {reading.title}</span>
                             </h2>
                             <p className="text-gray-600 mt-2">{reading.description}</p>
                             <Link href={reading.href}>Visit</Link>

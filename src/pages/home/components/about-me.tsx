@@ -7,8 +7,8 @@ function AboutMe() {
     const navigate = useNavigate();
     // youtube recommendation at /resources/youtube
     return (
-        <div className="ml-6">
-            <SectionHeader text="Here are some of the things I do" />
+        <div className="mx-6">
+            <SectionHeader text="Some of the things I do" />
             <p>
                 I code for school and outside of school. You can find my projects on{" "}
                 <Link href="https://github.com/JCSnap">GitHub</Link>.
@@ -37,6 +37,10 @@ function AboutMe() {
             <p>
                 I watch a lot of random stuff, you can find some of my youtube channel recommendations{" "}
                 <button onClick={() => navigate(ROUTES.YOUTUBE)} className="text-blue-500 hover:underline">
+                    here
+                </button>
+                . Recommendations of specific videos/readings can be found{" "}
+                <button onClick={() => navigate(ROUTES.READINGS)} className="text-blue-500 hover:underline">
                     here
                 </button>
                 .

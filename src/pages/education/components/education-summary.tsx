@@ -19,8 +19,7 @@ function EducationSummary() {
             location: "Singapore",
             description: (
                 <>
-                    This is my second degree, I took modules ranging from accounting, marketing, finance, operations and
-                    will (probably) be specialising in <strong>Finance</strong>.
+                    This is my second degree, I am specialising in <strong>Finance</strong>.
                 </>
             ),
         },

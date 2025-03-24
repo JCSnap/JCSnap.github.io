@@ -6,17 +6,37 @@ import Link from "../../components/link";
 function Projects() {
     const projects = [
         {
+            name: "Obsidian RPG",
+            description: (
+                <>
+                    Obsidian is a markdown-based note-taking app, I created scripts to turn my notes into a RPG game.
+                    The scripts directly modifies the underlying markdown files to make static notes appear "dynamic". I
+                    have open-sourced the project <Link href="https://github.com/JCSnap/obsidian-rpg">here</Link>.
+                </>
+            ),
+        },
+        {
             name: "The Alien That Eats the Carrot",
             description: (
                 <>
-                    An iOS game similar to Super Mario Bros developed using Swift from scratch", including the Physics
-                    Engine, Game Engine and Renderer totalling around 10k lines of codes.
+                    An iOS game similar to Super Mario Bros developed using Swift from scratch using various design
+                    patterns, including the Physics Engine, Game Engine and Renderer where I personally added around 12k
+                    lines of code. Architecture can be found{" "}
+                    <Link href="https://drive.google.com/file/d/1kHcMYgJxPgsfAiw6qWY70JHy4kN2GqI2/view?usp=sharing">
+                        here
+                    </Link>
+                    .
                 </>
             ),
         },
         {
             name: "Peggle clone",
-            description: <>An iOS clone of the Peggle game created from scratch using Swift and SwiftUI</>,
+            description: (
+                <>
+                    An iOS clone of the Peggle game created from scratch using Swift and SwiftUI with around 5k lines of
+                    code.
+                </>
+            ),
         },
         {
             name: "SoulScribe",
@@ -45,7 +65,7 @@ function Projects() {
                 <>
                     Created a few commands in Rust for the command line interface to enhance productivity in the
                     terminal, including command to check for file duplicates, command to ask a LLM directly in the
-                    terminal, and command to access snippets of other commands
+                    terminal, and command to access snippets of other commands.
                 </>
             ),
         },

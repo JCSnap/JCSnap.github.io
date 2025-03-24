@@ -19,4 +19,10 @@ export enum TECHSTACK {
     MONGODB = "MongoDB",
     FIREBASE = "Firebase",
     PRISMA = "Prisma",
+    KUBERNETES = "Kubernetes",
+    GOLANG = "Go",
+    POSTGRES = "PostgreSQL",
+    DOCKER = "Docker",
+    KAFKA = "Kafka",
+    AWS = "AWS",
 }

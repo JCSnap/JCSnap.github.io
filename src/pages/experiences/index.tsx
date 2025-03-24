@@ -7,30 +7,41 @@ import Link from "../../components/link";
 function Experiences() {
     const experiences = [
         {
-            title: "Incoming Software Engineer Intern",
+            title: "Software Engineer Intern",
             company: "Kleep AI",
-            duration: "August 2024 - December 2024",
+            duration: "August 2024 - January 2025",
             location: "Paris, France",
             description: (
                 <>
-                    Will be working on the software supporting Kleep's size recommendation{" "}
-                    <Link href="https://www.kleep.ai/">AI</Link>.
+                    Worked on the backend of Kleep's size recommendation <Link href="https://www.kleep.ai/">AI</Link>.
+                    Spearheaded observability enhancement across all services (logging, monitoring and alert
+                    infrastructure). Created robust data integration pipelines to ingest client data and transform them
+                    into format that our ML model can understand. Generated insights from millions of rows of data.
                 </>
             ),
-            techstack: [],
+            techstack: [TECHSTACK.POSTGRES, TECHSTACK.AWS, TECHSTACK.TYPESCRIPT, TECHSTACK.PYTHON],
         },
         {
-            title: "Incoming Software Engineer Intern",
+            title: "Software Engineer Intern",
             company: "Krutrim",
             duration: "May 2024 - August 2024",
             location: "Singapore",
             description: (
                 <>
-                    Will be working on the infrastructure supporting Krutrim's{" "}
-                    <Link href="https://chat.olakrutrim.com/home">Large Language Model</Link> similar to ChatGPT.
+                    Main contributor to the development of the fault-tolerant cloud GPU pod feature (KPod) similar to
+                    RunPod on <Link href="https://cloud.olakrutrim.com/">Krutrim Cloud</Link>, writing custom Kubernetes
+                    controllers with Golang, Kubernetes CRD, Docker. Wrote multiple microservices (notification, backend
+                    for KPod) with Golang, Kafka, PostgreSQL. Worked on LLM quantisation and benchmarking.
                 </>
             ),
-            techstack: [],
+            techstack: [
+                TECHSTACK.GOLANG,
+                TECHSTACK.KUBERNETES,
+                TECHSTACK.PYTHON,
+                TECHSTACK.DOCKER,
+                TECHSTACK.POSTGRES,
+                TECHSTACK.KAFKA,
+            ],
         },
         {
             title: "Software Engineer Intern",
