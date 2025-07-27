@@ -7,6 +7,18 @@ import Link from "../../components/link";
 function Experiences() {
     const experiences = [
         {
+            title: "Software Engineer",
+            company: "ren.",
+            duration: "Present",
+            location: "Singapore",
+            description: (
+                <>
+                    Personalizing education at scale at <Link href="https://landing.renlearn.app/">ren.</Link>. Currently supported by Block71, NUS Enterprise, SMU Big.
+                </>
+            ),
+            techstack: [],
+        },
+        {
             title: "Software Engineer Intern",
             company: "Kleep AI",
             duration: "August 2024 - January 2025",
