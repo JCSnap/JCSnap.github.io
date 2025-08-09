@@ -63,4 +63,16 @@ export const modules = [
             "HSI2009 What is a Planet?",
         ],
     },
+    {
+        semester: "AY2025/2026 Semester 1",
+        modules: [
+            "FIN3701 Corporate Finance",
+            "DAO2703 Operations and Technology Management",
+            "CS4243 Computer Vision and Pattern Recognition",
+            "CS3210 Parallel Computing",
+            "GEN2050 Teach SG",
+            "CS2102 Database Systems",
+            "CS3264 Foundations of Machine Learning",
+        ],
+    },
 ];
