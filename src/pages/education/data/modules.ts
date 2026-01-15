@@ -75,4 +75,16 @@ export const modules = [
             "CS3264 Foundations of Machine Learning",
         ],
     },
+    {
+        semester: "AY2025/2026 Semester 2",
+        modules: [
+            "CS4215 Programming Language Implementation",
+            "FIN3712 Options and Futures",
+            "FIN4717 Entrepreneurial Finance",
+            "HSI2011 The World of Quantum",
+            "BSP3701 Strategic Management",
+            "HSH1000 The Human Condition",
+            "GEC1007 Geopolitics: Geographies of War & Peace",
+        ],
+    },
 ];
