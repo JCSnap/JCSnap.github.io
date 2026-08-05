@@ -30,18 +30,8 @@ function NavigationBar() {
             internal: true,
         },
         {
-            label: "Skills",
-            href: ROUTES.SKILLS,
-            internal: true,
-        },
-        {
             label: "Resources",
             href: ROUTES.RESOURCES,
-            internal: true,
-        },
-        {
-            label: "Bucket List",
-            href: ROUTES.BUCKET_LIST,
             internal: true,
         },
         {
